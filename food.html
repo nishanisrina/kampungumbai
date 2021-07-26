@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="style.css"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<title>Our Food</title>
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+}
+</script>
+
+</head>
+<body>
+
+<div class="header">
+  <h1>⠀⠀⠀⠀⠀⠀⠀⠀⠀KAMPUNG UMBAI</h1>
+  <p> ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀Official Website for Kampung Umbai Community </p>
+</div>
+
+<nav>
+<div class="navbar">
+  <a href="index.html">Home</a>
+  <a href="about.html">About</a>
+  <a href="history.html">History</a>
+  <a href="heritage.html">Heritage</a>
+
+  <div class="dropdown">
+    <button class="dropbtn">Things To Do
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#">Food</a>
+      <a href="homestay.html">Homestay</a>
+    </div>
+  </div>
+</div>
+</nav>
+
+
+<div class="row">
+  <div class="leftcolumn">
+
+    <div class="card2">
+      <div class="terai">
+        <h2>OUR FOOD</h2>
+        Here are some of our famous food.
+        <br>
+                <br>
+                <h3><u>Ikan Bakar Klasik Terapung Umbai Baru</u></h3>
+                
+                    <img class="yimej" src="images/4.jpg" alt="restaurantikanbakar" title="Ikan Bakar Klasik Terapung Umbai" width="300" height="250">
+                
+                <p>
+                    The main attraction of ikan bakar klasik terapung Umbai Baru is the architecture of the building. The building is float on the water. Customers can enjoy the view of the place while enjoying their foods. The dishes that are served at here are seafood
+                    ant the most popular dish is grill fish. Apart from that, this place provides the customer with some of facilities such as toilet and mosque. <strong>This place is located at Umbai, 75460 Melaka and usually operate at 4.00pm until 12.00pm.</strong>
+                    <br>
+                    <br>
+                    
+                        <img class="yimej" src="images/5.jpg" alt="food" title="looking delicious!" width="300" height="250">
+                    
+                    <br>
+                    <p>
+                    <h3>***********************************************************************</h3>
+                        
+                        <h3><u>Cendol Sawit Melaka</u></h3>
+                        
+                            <img class="yimej" src="images/6.jpg" alt="CendolShop" title="The Gerai Cendol"width="300" height="250">
+                        
+                        <p>
+                            Cendol Sawit Melaka is located by the roadside that invites many fans of its own. It is run by a young entrepreneur who uses hereditary recipes of a family who once ran this business. The cendol was made with “santan sawit” that will give the different
+                            taste than coconut milk that usually use. Moreover, there are various types of cendol which are “cendol kacang merah”, “cendol jagung”, “cendol pulut” and etc. <strong>This stall is located at KM 12 Kampung Pernu, 75460 Melaka and operate from 11.30am until 6.00pm.</strong>
+                            <br>
+                            <br>
+                            
+                                <img class="yimej" src="images/7.jpg" alt="cendol" title="yummy!"width="300" height="250">
+                            
+                            <br>
+                            <p>
+                                <h3>***********************************************************************</h3>
+                                
+                                <h3><u>Asam Pedas Misswara</u></h3>
+                                
+                                    <img class="yimej" src="images/8.jpg" alt="restaurantAsamPedas" title="The Restaurant"width="300" height="250">
+                                
+                                <p>
+                                    Melaka is well-known with their asam pedas. Asam pedas Misswara is the most popular restaurant that served the best among the best of asam pedas in Umbai. At asam pedas Misswara, they offer a variety of asam pedas and other meals for lunch. Furthermore,
+                                    the most chosen asam pedas are “asam pedas pari”, “asam pedas tetel” and “asam oedas jenahak”. <strong>This restaurant is open from 8.00am until 3.30pm and located at Jalan Telok Emas / Umbai, Kampung Bukit Tembakau, 75460 Melaka.</strong>
+                                    <br>
+                                    <br>
+                                    
+                                        <img class="yimej" src="images/9.jpg" alt="asampedas" title="So delicious!"width="300" height="250">
+                                    
+                                    <p>
+                                    <h3>***********************************************************************</h3>
+                                        
+                                        <h3><u>Warung Kak Siti Murtabak Singapore Dan Roti Canai</u></h3>
+                                        
+                                            <img class="yimej" src="images/10.jpg" alt="anotherrestaurant" title="The Restaurant" width="300" height="250">
+                                        
+                                        <p>
+                                            This warung is famous with their murtabak Singapore and roti canai. Both of the meals are the most ordered by the people. It is because their roti canai is soft and crispy meanwhile the murtabak is overflowing with minced meat as well as spices and other
+                                            ingredients that make the murtabak taste better. Other than that, their nasi lemak with sambal also became a favorite of the locals. <strong>Warung Kak Siti murtabak Singapore dan roti canai is located at Jalan Melaka, Kampung Tengah, Jalan Merlimau / Melaka, Kampung Umbai, 77300, Melaka and their operation hour is at 6.30am until 12.00pm.</strong>
+                                            <br>
+                                            <br>
+                                            
+                                                <img class="yimej" src="images/11.jpg" alt="food" title="yummy!" width="300" height="250">
+                                            
+                                            <br>
+                                            <p>
+                                                <b>Others:</b>
+                                                <ul>
+                                                    <li>Roti john pernu</li>
+                                                    <br>
+                                                    <li>Umbai grill fish seafood</li>
+                                                    <br>
+                                                    <li>Kedai makan dak lin</li>
+                                                    <br>
+                                                    <li>Warung mi kari abu samah</li>
+                                                </ul>
+                                            </p>
+                                          </div> </div>
+
+<br>
+<br>
+
+</div>
+
+<div class="rightcolumn">
+    <div class="card">
+        <h2>Welcome!</h2>
+        <img src="images/scene.jpg" width="270" height="200" alt="boat scenery" title="welcome!" >
+      <p> Welcome to the latest official Website of Kampung Umbai! Do enjoy your visit here and make sure to follow and join us on social media !
+<br>
+<a href="https://facebook.com/groups/546884772668078/?ref=share" class="fa fa-facebook"></a>
+<a href="https://instagram.com/kampung_umbai" class="fa fa-instagram"></a>
+<br>
+<br>
+<b>Official email address:
+kampungumbaikami@gmail.com
+</b>
+</p>
+    </div>
+
+
+
+
+
+
+    <div class="card">
+        <h3>Search</h3>
+        <form method="post" action="about.html" id="search_form">
+          <p>
+
+<form class="example" action="about.html">
+  <input type="text" placeholder="Search.." name="search">
+  <button type="submit"><i class="fa fa-search"></i></button>
+</form>  
+<b><i><small>(Example: about)</small><b><i>
+</p>
+        </form>
+
+    </div>
+
+
+
+    <div class="card">
+      <h2>Find Us</h2>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7973.97514683147!2d102.34221683982183!3d2.158426543675785!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31d1ebf603251f21%3A0x82447db52b1117b0!2sUmbai%2C%2077300%20Merlimau%2C%20Malacca!5e0!3m2!1sen!2smy!4v1626505958908!5m2!1sen!2smy" width="200" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+  </div>
+
+
+    <div class="card">
+      <h3>Date</h3>
+<fieldset>
+<b>
+<p id="demo"></p>
+<script>
+var d = new Date();
+document.getElementById("demo").innerHTML = d;
+</script>
+</b>
+</fieldset>
+
+    </div>
+
+
+    <div class="card">
+      <h3>Latest News</h3>
+
+<div style="background-image: white;  height: 300px; overflow: auto; width: 200px;"></a>
+
+<marquee behavior="scroll" direction="up"  alt="natural">
+
+<img style="width: 234px; height: 150px;" src="images/bacaan.jpg" alt="news" title="Attention!"  />
+</marquee>
+
+</div>
+
+    </div>
+
+
+    <div class="card">
+      <h3>Kampongku Umbai</h3>
+
+<i><p> The official theme song of Kampung Umbai </p></i>
+<embed src="audios/KampongkuUmbai.mp4" width="200" height="150"></embed>
+<br>
+<br>
+<p>
+
+  Kisah impian Kampung ku Umbai 
+
+Megah harmoni aman dan damai 
+
+Berganding bahu bantu membantu 
+
+Teguh hati sepakat berpadu
+<br>
+<br>
+
+Desa bistari kampung ku Umbai 
+
+Lahir pemimpin bijak dan pandai 
+
+Setia berkhidmat pacu pembangunan 
+
+Terus maju langkah berwawasan
+<br>
+<br>
+
+Desa bertuah kampung ku Umbai 
+
+Cantik bersih indah sekali 
+
+Ada ternakan dan juga perusahaan 
+
+Tingkat ekonomi jana pendapatan
+
+<br>
+<br>
+Reff
+<br>
+<br>
+
+Kampung ku Umbai desa gemilang 
+
+Sudah terkenal nama dijulang 
+
+Berdaya maju bersinar cemerlang 
+
+Tegoh berpadu desa terbilang.....
+<br>
+<br>
+
+Desa ku indah Kampung ku Umbai 
+
+Menggamit pelancong datang beramai 
+
+Hasil lautan menjadi pilihan 
+
+Ikan bakar juadah menyelera
+<br>
+<br>
+
+Desa bersejarah kampung ku Umbai 
+
+Berbudaya dan menjaga warisan 
+
+Hormat menghormati menjadi amalan 
+
+Bersyukur dengan anugerah tuhan
+
+</p>
+    </div>
+
+
+
+    <div class="card">
+      <h2> <abbr title="Jawatankuasa Pembangunan Keselamatan Kampung">JPKK </abbr>  Umbai Pantai </h2>
+      <a href="https://www.facebook.com/JPKK-Kampung-UMBAI-Pantai-273591103102205/"><img src="images/jpkk.jpg" width="200" height="200" alt="JPKKLogo" title="The JPKK" > </a>
+<br>
+<br>
+  </div>
+
+
+
+    <div class="card">
+      <h3>Throwbacks</h3>
+      <br>
+
+
+<div class="slideshow-container">
+
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 6</div>
+    <img src="images/sl1.jpg"  alt="photogroup" title="2017 moment" style="width:100%">
+    <div class="text">Group photo</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 6</div>
+    <img src="images/sl2.jpg"  alt="discussing" title="2017 moment" style="width:100%">
+    <div class="text"> Discussing...</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 6</div>
+    <img src="images/sl3.jpg"  alt="members smiling" title="2017 moment" style="width:100%">
+    <div class="text"> Smile!</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">4 / 6</div>
+    <img src="images/sl4.jpg"  alt="eating" title="2017 moment" style="width:100%">
+    <div class="text">Eating together</div>
+  </div>
+
+   <div class="mySlides fade">
+    <div class="numbertext">5 / 6</div>
+    <img src="images/sl5.jpg"  alt="eatingagain" title="2017 moment" style="width:100%">
+    <div class="text">Another moment!</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">6 / 6</div>
+    <img src="images/sl6.jpg" alt="candidtime" title="2017 moment" style="width:100%">
+    <div class="text">Candid</div>
+  </div>
+
+
+  
+  
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<!-- The dots/circles -->
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+  <span class="dot" onclick="currentSlide(4)"></span>
+  <span class="dot" onclick="currentSlide(5)"></span>
+  <span class="dot" onclick="currentSlide(6)"></span>
+
+  <span class="dot" onclick="currentSlide(3)"></span>
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 4000); 
+}
+</script>
+
+
+
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+<script>
+  //Get the button
+  var mybutton = document.getElementById("myBtn");
+  
+  // When the user scrolls down 20px from the top of the document, show the button
+  window.onscroll = function() {scrollFunction()};
+  
+  function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      mybutton.style.display = "block";
+    } else {
+      mybutton.style.display = "none";
+    }
+  }
+  
+  // When the user clicks on the button, scroll to the top of the document
+  function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  }
+  </script>
+</div>
+
+</div>
+</div>
+
+<div class="footer">
+  <h2>Copyright © KAMPUNG UMBAI 2021 | Recommended using Google Browser & 1366x768 resolution | Last update 25/7/2021 </h2>
+</div>
+
+</body>
+</html>
